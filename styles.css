@@ -1,0 +1,203 @@
+/* ======== Global Styles ========*/
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+}
+
+/*======== Navigation Bar ========*/
+nav {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-bar {
+	display: flex;
+	border: 2px;
+	border-color: black;
+	radius: 10px;
+	justify-content: flex-end;
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+li {
+	margin: 15px 5px;
+}
+
+.logo {
+	height: 30px;
+	margin: 20px 20px 0px;
+}
+
+/*======== Hero Section ========*/
+section {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 40px 0 0 0;
+}
+
+/*======== About Me Section ========*/
+.about-me {
+	width: 300px;
+	margin: 5px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info {
+	max-width: 300px;
+	margin: 30px;
+}
+
+#main {
+	box-shadow: 2px 2px 5px grey;
+}
+
+.hero {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.hero-info {
+	margin: 30px;
+	justify-content: center;
+	width: 300px;
+}
+
+.hero-image {
+	height: 300px;
+	width: 300px;
+	margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	.hero-info {
+		width: 600px;
+	}
+
+	.hero-image {
+		visibility: hidden;
+		height: 0px;
+	}
+}
+
+.styled-break {
+	width: 30px;
+	height: 5px;
+	background-color: #7dbee3;
+	border-radius: 2.5px;
+	margin: 30px 0px;
+}
+
+.avatar {
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+}
+
+#name {
+	color: black;
+	font-size: 45px;
+}
+
+.test {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	margin: 5px;
+}
+
+.button {
+	border: 0;
+	padding: 10px 20px;
+	font-size: 20px;
+	background-color: #7dbee3;
+	width: 80px;
+	border-radius: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #7dbee9;
+}
+
+.button:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+form {
+	margin: 0 0 40px 0;
+}
+
+.input-section {
+	margin: 20px 0;
+	display: flex;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	margin: 0 5px 0 0;
+}
+/*======== Socail Styles ========*/
+.socials {
+	margin: 0px 0px 20px 0px;
+}
+
+.fa-solid {
+	margin: 5px 5px;
+}
+
+.fa-brands {
+	margin: 5px 5px;
+}
+
+/*======== Footer Section ========*/
+
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: #7dbee3;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+	footer {
+		background-color: #7dbee9;
+	}
+
+	.footer {
+		background-color: white;
+	}
+}
+
+@media only screen and (box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6)) {
+}
