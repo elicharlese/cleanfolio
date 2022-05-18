@@ -1,5 +1,9 @@
 {
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  "workbench.colorTheme": "Aura Dark"
+  "workbench.colorTheme": "Aura Dark",
+  "cSpell.words": [
+    "Cleanfolio",
+    "Tradent"
+  ]
 }
