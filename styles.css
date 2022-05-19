@@ -1,3 +1,7 @@
+/*
+
+*/
+
 /* ======== Global Styles ========*/
 body {
 	display: flex;
@@ -6,12 +10,69 @@ body {
 	background-color: #ffffff;
 }
 
+/* section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+} */
+
 a {
 	text-decoration: none;
+	color: #000000;
 }
 
 p {
 	font-size: 14px;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 15px 10px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 /*======== Navigation Bar ========*/
@@ -20,6 +81,11 @@ nav {
 	height: 50px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	position: fixed;
+
 }
 
 .nav-bar {
@@ -32,10 +98,8 @@ nav {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
-}
-
-li {
-	margin: 15px 5px;
+	letter-spacing: 1px;
+	color: #000000;
 }
 
 .logo {
@@ -43,23 +107,28 @@ li {
 	margin: 20px 20px 0px;
 }
 
+.nav-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+	border: 2px;
+	border-color: black;
+	border-radius: 50%;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
 /*======== Hero Section ========*/
-section {
+section.hero {
 	width: 100%;
 	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding: 40px 0 0 0;
-}
-
-/*======== Open-Source Section ========*/
-.open-source {
-	width: 300px;
-	margin: 5px;
-	display: flex;
-	justify-content: space-evenly;
+	padding: 40px 0 0 0
 }
 
 .info {
@@ -76,18 +145,31 @@ section {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	padding: 40px 0 0 0;
 }
 
 .hero-info {
 	margin: 30px;
 	justify-content: center;
 	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
 }
 
 .hero-image {
 	height: 300px;
 	width: 300px;
 	margin: 30px;
+}
+
+/*======== Open-Source Section ========*/
+.open-source {
+	width: 300px;
+	margin: 5px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 600px) {
@@ -98,6 +180,12 @@ section {
 	.hero-image {
 		visibility: hidden;
 		height: 0px;
+	}
+
+	.hero {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 }
 
@@ -113,11 +201,13 @@ section {
 	width: 70px;
 	height: 70px;
 	border-radius: 50px;
+	margin: 0 auto;
 }
 
 #name {
 	color: black;
 	font-size: 45px;
+	font-weight: bold;
 }
 
 .test {
@@ -204,8 +294,8 @@ footer {
 	}
 }
 
-@media only screen and (box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6)) {
-	.footer {
+@media screen and (max-width: 500px) {
+	.header {
 		background-color: white;
 	}
 }
