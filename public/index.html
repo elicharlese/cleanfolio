@@ -17,6 +17,7 @@
 			crossorigin="anonymous"
 		></script>
 		<title>Cleanfolio</title>
+		<favicon href="images/favicon.ico" />
 	</head>
 	<body>
 	<section class="header">
@@ -34,7 +35,7 @@
 				<li class="nav-button"><a href="https://github.com/elicharlese">GitHub</a></li>
 				<li class="nav-button" ><a href="#open-source">Open Source</a></li>
 				<li class="nav-button"><a href="pages/organizations.html">Organizations</a></li>
-				<div class="login-button">Log in</div>
+				<div class="nav-button"><a href="pages/login.html">Login</div>
 			</ul>
 		</nav>
 	</section>
@@ -42,7 +43,7 @@
 		<!-- Page Content -->
 		<div class="hero">
 			<div class="hero-info">
-				<h1 id="name">Elias Estrada</h1>
+				<h1 id="my-name">Elias Estrada</h1>
 				<h4>Coach CEC</h4>
 				<p>
 					I am an E-commerce Expert and Blockchain Developer. As well as Founder/CEO of
@@ -191,6 +192,45 @@
 				<input class="button" type="submit" value="submit"></input>
 			</form>
 		</section>
+		<!--Blockchain Section-->
+		<section class="blockchain">
+			<div class="logo">
+				<img
+					class="avatar"
+					src="images/IMG_1509.png"
+					alt="Elias Estrada headshot"
+				/>
+			</div>
+			<div class="blockchain">
+				<h2><a name="blockchain"></a>Blockchain Bounty Hunting: Team TDTO</h2>
+				<p>
+					We have experience with the following blockchain technologies:
+				</p>
+				<ul class="blockchain">
+					<li>
+						<i class="fab fa-ethereum"></i>
+						<span>
+							Ethereum
+						</span>
+					</li>
+					<li>
+						<i class="fab fa-bitcoin"></i>
+						<span>
+							Bitcoin
+						</span>
+					</li>
+			<div class="donate">
+				<h2>Donate</h2>
+				<p>
+					If you would like to donate to this project, please click the button below.
+				</p>
+				<a href="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true">
+					<img
+						src="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true"
+						alt="CryptoBadges"
+					/>
+				</a>
+		</section>
 		<!--Recommended Material-->
 		<!--FIXME: Add Medium Embed-->
 		<!--FIXME: DevDojo-->
@@ -212,6 +252,20 @@
 				<li class="button footer"><a href="#open-souce">Open Source</a></li>
 				<li class="button footer"><a href="pages/organizations.html">Organizations</a></li>
 			</ul>
+			<form class="search">
+				<p>Looking for something?</p>
+				<input type="text" placeholder="Search"></input>
+				<button type="submit">
+					<i class="fa-solid fa-search"></i>
+				</button>
+				<div class="subscribe">
+					<p>Subscribe to my snippets</p>
+					<input type="name" id="name" name="name" value="Enter name here"></input>
+					<input type="email" id="email" name="email" value="Enter email here"></input>
+					<button type="submit">
+						<i class="fa-solid fa-paper-plane"></i>
+				</div>
+			</form>
 		</footer>
 	</body>
 </html>

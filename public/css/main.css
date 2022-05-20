@@ -1,5 +1,6 @@
 /*
-
+This is the main style sheet for the cleanfolio. Alternate sheets will be in the css folder.
+All of this will be moved over to scss soon.
 */
 
 /* ======== Global Styles ========*/
@@ -126,18 +127,18 @@ nav {
 	color: #000000;
 }
 
-/* .nav-button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 30px;
-	width: 30px;
-	border: 2px;
-	border-color: black;
-	border-radius: 50%;
-	margin: 0px 10px;
-	cursor: pointer;
-} */
+.logo-button {
+	border: 0;
+	padding: 10px 20px;
+	font-size: 20px;
+	background-color: #7dbee3;
+	width: 80px;
+	border-radius: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
 
 .logo {
 	height: 40px;
@@ -208,7 +209,7 @@ section.hero {
 	margin: 0 auto;
 }
 
-#name {
+#my-name {
 	color: black;
 	font-size: 45px;
 	font-weight: bold;
@@ -293,7 +294,6 @@ footer {
 .button-footer {
 	display: flex;
 	border: 2px;
-	border-color: black;
 	padding: 10px;
 	justify-content: flex-end;
 	list-style-type: none;
@@ -301,7 +301,7 @@ footer {
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	color: #000000;
+	color: white;
 }
 
 /*======== Media Section ========*/
