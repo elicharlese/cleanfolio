@@ -426,31 +426,44 @@ footer {
 	.header {
 		background-color: white;
 	}
-}
-
-@media screen and (max-width: 500px) {
+	/*======== Hero Section ========*/
 	.hero-info {
 		width: 100%;
 		height: 300px;
 	}
-
 	.hero-image {
 		visibility: hidden;
 		height: 0px;
 	}
-
 	.hero {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
-}
-
-@media only screen and (max-width: 500px) {
+	/*======== Snippets Section ========*/
+	.snippets {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		max-width: 800px;
+		padding: 0 20px;
+	}
+	/*======== Hire Me Section ========*/
+	.hire-me {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		max-width: 800px;
+		padding: 0 20px;
+	}
+	/*======== Footer Section ========*/
 	footer {
 		background-color: #7dbee9;
 	}
-
 	.footer {
 		background-color: white;
 	}
