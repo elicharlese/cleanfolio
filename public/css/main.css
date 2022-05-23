@@ -226,6 +226,16 @@ section.hero {
 #main {
 	box-shadow: 2px 2px 5px grey;
 }
+/*======== Snippets Section ========*/
+.snippets {
+	display: flex;
+	flex-direction: column;
+	margin: 0 5px 10px 0;
+	padding: 0 5px 10px 0;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(125, 190, 227, 20%);
+}
 
 /*====== About Me Section ========*/
 .middle {
