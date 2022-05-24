@@ -243,6 +243,7 @@ section.hero {
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(125, 190, 227, 20%);
+	width: 100%;
 }
 
 /*====== About Me Section ========*/
