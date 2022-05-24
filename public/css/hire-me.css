@@ -1,0 +1,15 @@
+/*
+This sheet contains the styles for the hire me page.
+
+FIXME: This sheet should be merged with the main.css sheet.
+*/
+
+.hire-me {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hire-me h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}

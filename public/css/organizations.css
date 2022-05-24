@@ -1,0 +1,11 @@
+/*
+This will style the organizations page which relates to the other pages.
+FIXME: This sheet should be merged with the main.css sheet.
+*/
+
+.organizations {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
