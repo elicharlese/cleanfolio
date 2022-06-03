@@ -197,6 +197,8 @@ section.hero {
 .info {
 	max-width: 300px;
 	margin: 30px;
+	display: flex;
+	flex-direction: column;
 }
 
 .hero {
@@ -213,6 +215,7 @@ section.hero {
 	width: 300px;
 	height: 300px;
 	display: flex;
+	font-size: 25px;
 	flex-direction: column;
 }
 
@@ -266,7 +269,7 @@ section.hero {
 
 #my-name {
 	color: black;
-	font-size: 45px;
+	font-size: 80px;
 	font-weight: bold;
 	margin: 300px 0 0 0;
 }
