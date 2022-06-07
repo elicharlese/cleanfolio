@@ -77,6 +77,10 @@ h4 {
 	margin-bottom: 10px;
 }
 
+form {
+	margin: 0 0 40px 0;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -182,31 +186,16 @@ nav {
 }
 
 /*======== Hero Section ========*/
-section.hero {
+.hero {
 	width: 100%;
 	height: 100vh;
 	background-color: white;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 50px 0 0 0;
 	margin-top: 50px;
-}
-
-.info {
-	max-width: 300px;
-	margin: 30px;
-	display: flex;
-	flex-direction: column;
-}
-
-.hero {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding: 40px 0 0 0;
 }
 
 .hero-info {
@@ -233,13 +222,27 @@ section.hero {
 	margin: 30px 0px;
 }
 
-#main {
-	box-shadow: 2px 2px 5px grey;
+#my-name {
+	color: black;
+	font-size: 80px;
+	font-weight: bold;
+	margin: 300px 0 0 0;
 }
 
 /*======== Snippets Section ========*/
 .snippets {
 	display: flex;
+	flex-direction: column;
+	margin: 0 5px 10px 0;
+	padding: 0 5px 10px 0;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(125, 190, 227, 20%);
+	width: 100%;
+}
+
+#course {
+	display: block;
 	flex-direction: column;
 	margin: 0 5px 10px 0;
 	padding: 0 5px 10px 0;
@@ -265,13 +268,6 @@ section.hero {
 	height: 70px;
 	border-radius: 50px;
 	margin: 0 auto;
-}
-
-#my-name {
-	color: black;
-	font-size: 80px;
-	font-weight: bold;
-	margin: 300px 0 0 0;
 }
 
 /*======= About Me Section ========*/
@@ -317,10 +313,6 @@ section.hero {
 	margin: 0 auto;
 	max-width: 800px;
 	padding: 0 20px;
-}
-
-form {
-	margin: 0 0 40px 0;
 }
 
 .input-section {

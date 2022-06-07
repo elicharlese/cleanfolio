@@ -39,8 +39,8 @@
 				<div class="button" id="web-3"><a href="pages/web3-wallet.html">Wallet</div>
 			</ul>
 		</nav>
-		<!-- Page Content -->
-		<section class="content">
+		<!-- Hero Section-->
+		<section class="section">
 			<div class="hero">
 				<div class="hero-info">
 					<h1 id="my-name">Elias Estrada</h1>
@@ -66,12 +66,13 @@
 				</div>
 			</div>
 		</section>
-		<section class="snippets">
-			<div class="snippet">
+		<!-- Snippets Section -->
+		<section class="section">
+			<div class="snippets">
 				<h3>Snippet of the Day</h3>
 				<iframe class="snippet-frame" src="" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<div class="snippet">
+			<div class="snippets">
 				<form><a name="">Subscribe to get started</a>
 					<input type="text" placeholder="Email Address" />
 					<input type="submit" value="Subscribe" />
@@ -80,7 +81,7 @@
 			</div>
 		</section>
 		<!-- About Me Section -->
-		<section class="middle">
+		<section class="section">
 			<div class="about-me">
 				<i class="fa-solid fa-globe"></i>
 				<h2><a name="about-me"></a>Well-Rounded and Highly Grounded</h2>
@@ -96,7 +97,12 @@
 					the UCF Computer Science Club.
 				</p>
 			</div>
-			<!-- Skills Section -->
+			<div class="about-me">
+				<i class="fa-solid fa-code"></i>
+			</div>
+		</section>
+		<!-- Skills Section -->
+		<section class="section">
 			<div class="skills">
 				<h1><a name="skills"></a>Skills</h1>
 				<div class="skill-container">
@@ -106,19 +112,23 @@
 							<li>HTML</li>
 							<li>CSS</li>
 							<li>JavaScript</li>
-							<li>Python</li>
-							<li>SQL</li>
-							<li>C++</li>
-							<li>C#</li>
-							<li>Java</li>
-							<li>Swift</li>
-							<li>PHP</li>
-							<li>TypeScript</li>
-							<li>Ruby</li>
-							<li>Go</li>
-							<li>Kotlin</li>
-							<li>Rust</li>
-				-->
+							<li id="in-progress">React</li>
+							<li id="in-progress">Python</li>
+							<li id="in-progress">SQL</li>
+							<li id="in-progress">C++</li>
+							<li id="in-progress">C#</li>
+							<li id="in-progress">Java</li>
+							<li id="in-progress">Swift</li>
+							<li id="in-progress">PHP</li>
+							<li id="in-progress">TypeScript</li>
+							<li id="in-progress">Ruby</li>
+							<li id="in-progress">Go</li>
+							<li id="in-progress">Kotlin</li>
+							<li id="in-progress">Rust</li>
+							-->
+						</ul>
+					</div>
+				</div>
 			<h3>Skills and Developer Experience</h3>
 			<ul class="skills">
 				<li>
@@ -178,7 +188,7 @@
 			</div>
 		</section>
 		<!-- Open-Source Contribution Section -->
-		<section class="open-source">
+		<section class="section">
 			<div class="logo">
 				<img
 					class="avatar"
@@ -201,7 +211,14 @@
 							</span></a>
 		</section>
 		<!--Hire Me Section-->
-		<section class="hire-me">
+		<section class="section">
+			<div class="hire-me">
+				<h2><a name="hire-me"></a>Hire Me</h2>
+				<p>
+					If you are interested in hiring me, please contact me at
+					<a href="mailto: elicharlese@gmail.com">elicharlese@gmail.com</a>
+				</p>
+			</div>
 			<form>
 				<h2>Hire Me</h2>
 				<div class="input-section">
@@ -233,9 +250,9 @@
 				<input class="button" type="submit" value="submit"></input>
 			</form>
 		</section>
-		<!--Access Private Repositories-->
+		<!--Private Repositories Section-->
 		<!--FIXME: Must have token to access private repositories-->
-		<section class="divider"></section>
+		<section class="section" id="access">
 			<h2>Private Repositories</h2>
 			<p>Must have a token to access private repositories</p>
 			<br></br>
@@ -249,7 +266,7 @@
 			</div>
 		</section>
 		<!--Bitcellular Section-->
-		<section class="bitcellular">
+		<section class="section" id="bitcell">
 			<h2>Build a Bitcell and join in with the rest of the world!</h2>
 				<form action="sign-in" method="post">
 					<input type="text" name="username" placeholder="GitHub Username"></input>
@@ -258,7 +275,7 @@
 				</form>
 		</section>
 		<!--Blockchain Section-->
-		<section class="blockchain">
+		<section class="section" id="blockchain">
 			<div class="logo">
 				<img
 					class="avatar"
@@ -284,10 +301,12 @@
 							Bitcoin
 						</span>
 					</li>
-		<!--Recommended Material-->
+				</ul>
+			</div>
 		</section>
-			<section class="recommended-material">
-			<!--FIXME: Add Medium Embed-->
+		<!--Recommended Material Section-->
+		<section class="section" id="recommended-material">
+			<!--FIXME: Medium-->
 			<div class="medium-embed"></div>
 			<!--FIXME: DevDojo-->
 			<div class="dev-dojo"></div>
@@ -296,8 +315,8 @@
 			<!--FIXME: BrainTrust & Web 3.0 Communities-->
 			<div class="braintrust"></div>
 		</section>
-		<!--Social buttons -->
-		<section class="socials">
+		<!--Socials Section-->
+		<section class="section" id="socials">
 			<i class="fa-solid fa-circle-user"><a href=""></a></i>
 			<i class="fa-solid fa-envelope"><a href=""></a></i>
 			<i class="fa-brands fa-linkedin"><a href=""></a></i>
@@ -306,38 +325,40 @@
 			<i class="fa-brands fa-twitch"><a href=""></a></i>
 		</section>
 	</body>
-	<!--Footer-->
+	<!--Footer Section-->
 	<footer>
-		<ul class="footer-buttons">
-			<li class="button"><a href="pages/hire-me.html">Hire Me</a></li>
-			<li class="button"><a href="https://github.com/elicharlese">GitHub</a></li>
-			<li class="button"><a href="#open-souce">Open Source</a></li>
-			<li class="button"><a href="pages/organizations.html">Organizations</a></li>
-		</ul>
-		<form class="search">
-			<p>Looking for something?</p>
-			<input type="text" placeholder="Search"></input>
-			<button type="submit">
-				<i class="fa-solid fa-search"></i>
-			</button>
-			<div class="subscribe" id="subscribe">
-				<p>Subscribe to my snippets</p>
-				<input type="name" id="name" name="name" value="Name"></input>
-				<input type="email" id="email" name="email" value="Email"></input>
+		<section class="section" id="footer">
+			<ul class="footer-buttons">
+				<li class="button"><a href="pages/hire-me.html">Hire Me</a></li>
+				<li class="button"><a href="https://github.com/elicharlese">GitHub</a></li>
+				<li class="button"><a href="#open-souce">Open Source</a></li>
+				<li class="button"><a href="pages/organizations.html">Organizations</a></li>
+			</ul>
+			<form class="search">
+				<p>Looking for something?</p>
+				<input type="text" placeholder="Search"></input>
 				<button type="submit">
-					<i class="fa-solid fa-paper-plane"></i>
+					<i class="fa-solid fa-search"></i>
 				</button>
+				<div class="subscribe" id="subscribe">
+					<p>Subscribe to my snippets</p>
+					<input type="name" id="name" name="name" value="Name"></input>
+					<input type="email" id="email" name="email" value="Email"></input>
+					<button type="submit">
+						<i class="fa-solid fa-paper-plane"></i>
+					</button>
+				</div>
+			</form>
+			<div class="donate">
+				<h2>Donate</h2>
+				<p>
+					If you would like to donate to this project, please click the button below.
+				</p>
+				<a href="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true">
+					<img src="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true"
+						alt="CryptoBadges" />
+				</a>
 			</div>
-		</form>
-		<div class="donate">
-			<h2>Donate</h2>
-			<p>
-				If you would like to donate to this project, please click the button below.
-			</p>
-			<a href="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true">
-				<img src="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true"
-					alt="CryptoBadges" />
-			</a>
-		</div>
+		</section>
 	</footer>
 </html>
