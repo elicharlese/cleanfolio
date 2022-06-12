@@ -320,12 +320,22 @@
 	</body>
 	<!--Footer Section-->
 	<footer>
-		<section class="section" id="footer">
-			<ul class="footer-buttons">
-				<li class="button"><a href="pages/hire-me.html">Hire Me</a></li>
-				<li class="button"><a href="https://github.com/elicharlese">GitHub</a></li>
-				<li class="button"><a href="#open-souce">Open Source</a></li>
-				<li class="button"><a href="pages/organizations.html">Organizations</a></li>
+		<section class="section">
+			<!--TODO: #1 Make this a headshot or personal logo-->
+			<div class="logo-button">
+				<a href="/public/index.html">
+					<img class="logo" src="/images/CEC-logo.png" alt="Cleanfolio Logo" />
+				</a>
+			</div>
+			<ul class="nav-bar">
+				<li class="nav-link"><a href="\src\pages\hire-me.html">Hire Me</a></li>
+				<li class="nav-link"><a href="https://github.com/elicharlese">GitHub</a></li>
+				<li class="nav-link"><a href="\src\pages\open-source.html">Open Source</a></li>
+				<li class="nav-link"><a href="\src\pages\organizations.html">Organizations</a></li>
+				<!--FIXME: Change the buttons-->
+				<div class="button"><a href="\src\pages\authentication\login.html">Login</div>
+				<div class="button" id="web-3"><a href="pages/web3-wallet.html">Wallet</div>
+				<!--TODO: #2 Connect the button to metamask and walletconnect-->
 			</ul>
 			<form class="search">
 				<p>Looking for something?</p>
