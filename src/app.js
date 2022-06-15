@@ -23,6 +23,10 @@ function closeNav() {
 /*====== Buttons ======*/
 function buttonClick() {
     document.getElementById("mySidenav").style.width = "250px";
+    for (var i = 0; i < document.getElementsByClassName("button").length; i++) {
+        document.getElementsByClassName("button")[i].style.backgroundColor = "white";
+        document.getElementsByClassName("button")[i].style.color = "black";
+    }
 }
 
 function buttonClick2() {
