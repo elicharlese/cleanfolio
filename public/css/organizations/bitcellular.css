@@ -9,10 +9,10 @@ All of this will be moved over to scss soon.
     border: 0;
     padding: 10px;
     font-size: 20px;
-    background-color: #a82c2c;
+    background-color: #DE4E56;
     height: 40px;
     width: 90px;
-    border-radius: 20px;
+    border-radius: 16px;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
@@ -32,7 +32,7 @@ All of this will be moved over to scss soon.
 
 .button:hover {
     /*TODO: Change the color*/
-    background-color: #a82c2c;
+    background-color: #DE4E56;
     cursor: pointer;
 }
 
