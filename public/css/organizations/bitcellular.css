@@ -4,22 +4,44 @@ All of this will be moved over to scss soon.
 */
 
 /* ======== Global Styles ========*/
+nav {
+    position: absolute;
+    width: 1280px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(168, 44, 44, 0.0196802),
+        0px 41.7776px 33.4221px rgba(168, 44, 44, 0.0282725),
+        0px 22.3363px 17.869px rgba(168, 44, 44, 0.035),
+        0px 12.5216px 10.0172px rgba(168, 44, 44, 0.0417275),
+        0px 6.6501px 5.32008px rgba(168, 44, 44, 0.0503198),
+        0px 2.76726px 2.21381px rgba(168, 44, 44, 0.07);
+}
 
 .button {
     border: 0;
     padding: 10px;
     font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+
     background-color: #DE4E56;
     height: 40px;
     width: 90px;
     border-radius: 16px;
-    color: white;
+
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
     cursor: pointer;
     /*TODO: Change the gradient*/
     box-shadow: 0px 100px 80px rgba(125, 190, 227, 0.0196802),
