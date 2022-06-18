@@ -51,7 +51,51 @@
 			</form>
 		</section>
 	</body>
-	<footer>
-		<p>Copyright &copy; 2022 Cleanfolio</p>
-	</footer>
+<!--Footer Section-->
+<footer>
+	<section class="section">
+		<!--TODO: #1 Make this a headshot or personal logo-->
+		<div class="logo-button">
+			<a href="/public/index.html">
+				<img class="logo" src="/images/CEC-logo.png" alt="Cleanfolio Logo" />
+			</a>
+		</div>
+		<ul class="nav-bar">
+			<li class="nav-link"><a href="\src\pages\hire-me.html">Hire Me</a></li>
+			<li class="nav-link"><a href="https://github.com/elicharlese">GitHub</a></li>
+			<li class="nav-link"><a href="\src\pages\open-source.html">Open Source</a></li>
+			<li class="nav-link"><a href="\src\pages\organizations.html">Organizations</a></li>
+			<!--FIXME: Change the buttons-->
+			<div class="button"><a href="\src\pages\authentication\login.html">Login</div>
+			<div class="button" id="web-3"><a href="pages/web3-wallet.html">Wallet</div>
+			<!--TODO: #2 Connect the button to metamask and walletconnect-->
+		</ul>
+		<form class="search">
+			<p>Looking for something?</p>
+			<input type="text" placeholder="Search"></input>
+			<button type="submit">
+				<i class="fa-solid fa-search"></i>
+			</button>
+			<div class="subscribe" id="subscribe">
+				<p>Subscribe to my snippets</p>
+				<input type="name" id="name" name="name" value="Name"></input>
+				<input type="email" id="email" name="email" value="Email"></input>
+				<button type="submit">
+					<i class="fa-solid fa-paper-plane"></i>
+				</button>
+			</div>
+		</form>
+		<div class="donate">
+			<!--TODO: #3 Connect the donations contract to button-->
+			<h2>Donate</h2>
+			<p>
+				If you would like to donate to this project, please click the button below.
+			</p>
+			<a href="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true">
+				<img src="https://en.cryptobadges.io/badge/big/0xA0E2284C43DbfcFdd0eE468c1b7a331b9B9F9001?showBalance=true"
+					alt="CryptoBadges" />
+			</a>
+		</div>
+	</section>
+</footer>
 </html>
