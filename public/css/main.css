@@ -376,19 +376,19 @@ nav {
 }
 
 /*======== Footer Section ========*/
-/* ul {
+ul {
     margin: 0px;
     padding: 0px;
 }
 .footer-section {
-	background: #151414;
+	background: #fff;
 	position: relative;
 }
 .footer-cta {
-	border-bottom: 1px solid #373636;
+	border-bottom: 1px solid #7dbee9;
 }
 .single-cta i {
-	color: #ff5e14;
+	color: #7dbee3;
 	font-size: 30px;
 	float: left;
 	margin-top: 8px;
@@ -398,13 +398,13 @@ nav {
 	display: inline-block;
 }
 .cta-text h4 {
-	color: #fff;
+	color: #000000;
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 2px;
 }
 .cta-text span {
-	color: #757575;
+	color: #7dbee9;
 	font-size: 15px;
 }
 .footer-content {
@@ -432,7 +432,7 @@ nav {
 	line-height: 28px;
 }
 .footer-social-icon span {
-	color: #fff;
+	color: #000000;
 	display: block;
 	font-size: 20px;
 	font-weight: 700;
@@ -440,7 +440,7 @@ nav {
 	margin-bottom: 20px;
 }
 .footer-social-icon a {
-	color: #fff;
+	color: #000000;
 	font-size: 16px;
 	margin-right: 15px;
 }
@@ -452,16 +452,16 @@ nav {
 	border-radius: 50%;
 }
 .facebook-bg{
-	background: #3B5998;
+	background: #7dbee3;
 }
 .twitter-bg{
-	background: #55ACEE;
+	background: #7dbee3;
 }
 .google-bg{
-	background: #DD4B39;
+	background: #7dbee3;
 }
 .footer-widget-heading h3 {
-	color: #fff;
+	color: #000000;
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 40px;
@@ -474,7 +474,7 @@ nav {
 	bottom: -15px;
 	height: 2px;
 	width: 50px;
-	background: #ff5e14;
+	background: #7dbee3;
 }
 .footer-widget ul li {
 	display: inline-block;
@@ -483,10 +483,10 @@ nav {
 	margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-	color: #ff5e14;
+	color: #7dbee9;
 }
 .footer-widget ul li a {
-	color: #878787;
+	color: #7e7e7e;
 	text-transform: capitalize;
 }
 .subscribe-form {
@@ -496,16 +496,16 @@ nav {
 .subscribe-form input {
 	width: 100%;
 	padding: 14px 28px;
-	background: #2E2E2E;
-	border: 1px solid #2E2E2E;
-	color: #fff;
+	background: #7dbee9;
+	border: 1px solid #7dbee9;
+	color: #000000;
 }
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #ff5e14;
+    background: #7dbee3;
     padding: 13px 20px;
-    border: 1px solid #ff5e14;
+    border: 1px solid #7dbee3;
     top: 0;
 }
 .subscribe-form button i {
@@ -514,7 +514,7 @@ nav {
 	transform: rotate(-6deg);
 }
 .copyright-area{
-	background: #202020;
+	background: #fff;
 	padding: 25px 0;
 }
 .copyright-text p {
@@ -523,19 +523,19 @@ nav {
 	color: #878787;
 }
 .copyright-text p a{
-	color: #ff5e14;
+	color: #7dbee3;
 }
 .footer-menu li {
 	display: inline-block;
 	margin-left: 20px;
 }
 .footer-menu li:hover a{
-	color: #ff5e14;
+	color: #7dbee3;
 }
 .footer-menu li a {
 	font-size: 14px;
 	color: #878787;
-} */
+}
 
 footer {
 	font-family: Arial, Helvetica, sans-serif;

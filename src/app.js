@@ -66,3 +66,59 @@ function ticker() {
     ticker3.innerHTML = ticker3.innerHTML.substring(1) + ticker3.innerHTML.charAt(0);
     moveBy = setTimeout('ticker()', 100);
 }
+
+/*===== Projects =====*/
+function projects() {
+    var x = document.getElementById("projects");
+    if (x.className === "projects") {
+        x.className += " responsive";
+    } else {
+        x.className = "projects";
+    }
+}
+
+/*===== E-commerce =====*/
+function ecommerce() {
+    var x = document.getElementById("ecommerce");
+    if (x.className === "ecommerce") {
+        x.className += " responsive";
+    } else {
+        x.className = "ecommerce";
+    }
+}
+
+function width() {
+    var x = document.getElementById("width");
+    if (x.className === "width") {
+        x.className += " responsive";
+    } else {
+        x.className = "width";
+    }
+}
+
+function widget() {
+    var x = document.getElementById("widget");
+    if (x.className === "widget") {
+        x.className += " responsive";
+    } else {
+        x.className = "widget";
+    }
+}
+
+function height() {
+    var x = document.getElementById("height");
+    if (x.className === "height") {
+        x.className += " responsive";
+    } else {
+        x.className = "height";
+    }
+}
+
+function cart() {
+    var x = document.getElementById("cart");
+    if (x.className === "cart") {
+        x.className += " responsive";
+    } else {
+        x.className = "cart";
+    }
+}
