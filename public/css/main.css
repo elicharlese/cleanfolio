@@ -9,6 +9,7 @@ body {
 	flex-direction: column;
 	font-family: 'Raleway', 'Roboto', sans-serif;
 	background-color: #ffffff;
+	color: #000000;
 }
 
 section {
@@ -37,7 +38,7 @@ a {
 }
 
 p {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 1.5;
 	margin: 0;
 }
@@ -98,14 +99,19 @@ form {
 	background-color: #7dbee3;
 	height: 40px;
 	width: 90px;
+
+	margin: 10px;
 	border-radius: 16px;
 	color: white;
+
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-align: center;
 	text-overflow: ellipsis;
+	white-space: nowrap;
+
 	cursor: pointer;
 	box-shadow: 0px 100px 80px rgba(125, 190, 227, 0.0196802),
 	0px 41.7776px 33.4221px rgba(125, 190, 227, 0.0282725),
@@ -113,6 +119,12 @@ form {
 	0px 12.5216px 10.0172px rgba(125, 190, 227, 0.0417275),
 	0px 6.6501px 5.32008px rgba(125, 190, 227, 0.0503198),
 	0px 2.76726px 2.21381px rgba(125, 190, 227, 0.07);
+}
+
+.button p {
+	margin: 0;
+	padding: 0;
+	color: white;
 }
 
 .button:hover {
@@ -143,7 +155,7 @@ nav {
 	height: 71px;
 	left: 0px;
 	top: 0px;
-	background: #FFFFFF;
+
 	box-shadow: 0px 100px 80px rgba(125, 190, 227, 0.0196802),
 	0px 41.7776px 33.4221px rgba(125, 190, 227, 0.0282725),
 	0px 22.3363px 17.869px rgba(125, 190, 227, 0.035),
@@ -175,8 +187,6 @@ nav {
 .nav-bar {
 	display: flex;
 	border: 2px;
-	border-color: black;
-	padding: 10px;
 	justify-content: flex-end;
 	list-style-type: none;
 	text-transform: uppercase;
