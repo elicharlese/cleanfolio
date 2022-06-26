@@ -52,11 +52,13 @@
 						I am an E-commerce Expert and Blockchain Developer. Also known as Coach CEC.
 					</p>
 					<!--TODO: #4 Edit buttons-->
-					<div class="button">
-						<i class="fa-solid fa-bracket-curly"></i>
-						Hire me
-						<i class="fa-thin fa-bracket-curly-right"></i>
-					</div>
+					<a href="\src\pages\hire-me.html">
+						<div class="button">
+							<i class="fa-solid fa-bracket-curly"></i>
+							<p>Hire me</p>
+							<i class="fa-solid fa-bracket-curly-right"></i>
+						</div>
+					</a>
 				</div>
 			</div>
 				<!--TODO: #3 Add animation image and css fade out-->
@@ -74,9 +76,7 @@
 			<div class="snippets">
 				<h3>Snippet of the Day</h3>
 				<iframe class="snippet-frame" src="" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<!--TODO: #5 Add an example snippet for decoration-->
-			<div class="snippets">
+				<!--TODO: #5 Add an example snippet for decoration-->
 				<form><a name="">Subscribe to get started</a>
 					<input type="text" placeholder="Email Address" />
 					<input type="submit" value="Subscribe" />
@@ -207,7 +207,7 @@
 		<!--Hire Me Section-->
 		<section class="section">
 			<div class="hire-me">
-				<h2><a name="hire-me"></a>Hire Me</h2>
+				<h2><a href="\src\pages\hire-me.html">Hire Me</a></h2>
 				<p>
 					If you are interested in hiring me, please contact me at
 					<a href="mailto: elicharlese@gmail.com">elicharlese@gmail.com</a>
@@ -246,10 +246,10 @@
 		<!--Private Repositories Section-->
 		<!--FIXME: Must have token to access private repositories-->
 		<section class="section-access" id="access">
-			<h2>Private Repositories</h2>
-			<p>Must have a token to access private repositories</p>
-			<br></br>
 			<div class="private-repos">
+				<h2>Private Repositories</h2>
+				<p>Must have a token to access private repositories</p>
+				<br></br>
 				<a href="https://github.com/elicharlese">
 					<i class="fab fa-github"></i>
 					<span>
@@ -322,32 +322,6 @@
 	</body>
 	<!--Footer Section-->
 	<footer class="footer-section">
-		<section class="section">
-			<form class="search">
-				<p>Looking for something?</p>
-				<input type="text" placeholder="Search"></input>
-				<button type="submit">
-					<i class="fa-solid fa-search"></i>
-				</button>
-				<div class="subscribe" id="subscribe">
-					<p>Subscribe to my snippets</p>
-					<input type="name" id="name" name="name" value="Name"></input>
-					<input type="email" id="email" name="email" value="Email"></input>
-					<button type="submit">
-						<i class="fa-solid fa-paper-plane"></i>
-					</button>
-				</div>
-			</form>
-			<div class="donate">
-				<!--TODO: #3 Connect the donations contract to button-->
-				<h2>Donate</h2>
-				<p>
-					If you would like to donate to this project, please click the button below.
-				</p>
-				<button type="submit">
-					<i class="fa-solid fa-donate"></i>
-			</div>
-		</section>
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">

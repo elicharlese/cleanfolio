@@ -58,6 +58,7 @@ h1 {
 	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 20 0 10px 0;
+	padding: 0;
 }
 
 h2 {
@@ -168,16 +169,16 @@ nav {
 	border: 0;
 	padding: 10px 20px;
 	font-size: 20px;
-	min-width: 50px;
-	min-height: 50px;
+	width: 100px;
+	height: 100px;
 	cursor: pointer;
 	justify-content: flex-start;
 	box-shadow: 0px 100px 80px rgba(125, 190, 227, 0.0196802),
 }
 
 .logo {
-	min-width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	margin: 20px 20px 15px;
 	justify-content: center;
 	align-items: center;
@@ -247,6 +248,20 @@ nav {
 	font-weight: bold;
 	margin: 10 0 20px 0;
 }
+.fa-solid {
+	font-size: 30px;
+	margin: 0 10 0 0;
+}
+
+.fa-bracket-curly {
+	font-size: 30px;
+	margin: 0 10px;
+}
+
+.fa-bracket-curly-right {
+	font-size: 30px;
+	margin: 0 10px;
+}
 
 /*======== Snippets Section ========*/
 .snippets {
@@ -257,7 +272,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(125, 190, 227, 20%);
-	width: 100%;
+	width: 80%;
 }
 
 #course {
@@ -352,6 +367,7 @@ nav {
 	padding: 0 5px 10px 0;
 	justify-content: center;
 	align-items: center;
+	width: 80%;
 	background-color: rgba(125, 190, 227, 20%);
 }
 .bitcellular {
@@ -375,6 +391,9 @@ nav {
 	margin: 0px 0px 20px 0px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 800px;
 }
 
 .fa-solid {
