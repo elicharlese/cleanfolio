@@ -211,16 +211,23 @@ nav {
 	height: 100vh;
 	background-color: white;
 	display: flex;
-	align-items: center;
+	align-items: left center;
 	justify-content: space-between;
+	justify-items: center;
 	flex-wrap: wrap;
+	position: relative;
+	z-index: -1;
 	padding: 5 5 5 5px;
 	margin: 10, 0, 0, 0;
+	padding-bottom: 150px;
 }
 
 .hero-info {
 	margin: 150px 0 50px 0;
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: left center;
+	justify-content: left;
 	width: 300px;
 	height: 300px;
 	display: flex;
@@ -232,14 +239,6 @@ nav {
 	height: 300px;
 	width: 300px;
 	margin: 30px;
-}
-
-.styled-break {
-	width: 30px;
-	height: 5px;
-	background-color: #7dbee3;
-	border-radius: 2.5px;
-	margin: 30px 0px;
 }
 
 #my-name {
